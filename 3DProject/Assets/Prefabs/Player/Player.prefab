@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3835770858228333195}
   - component: {fileID: 6683110012545425979}
   - component: {fileID: 8435376033324697797}
+  - component: {fileID: 953842761505465274}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -110,6 +111,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 565e73da-c067-4c75-8fb8-b52db01336b5
     m_ActionName: Main/Looking[/Mouse/delta/y,/Mouse/delta/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 46eba7f0-4883-41a7-8f91-32d7e5ae8036
+    m_ActionName: Main/PauseButton[/Keyboard/m]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Main
@@ -128,6 +133,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &953842761505465274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960962189489656018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076694713be8d7f45a4f7af2ec7327a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 5124692250617977033, guid: ed7524001c81cbb40bde298410d91cc6, type: 3}
 --- !u!1 &8236448312207164029
 GameObject:
   m_ObjectHideFlags: 0
